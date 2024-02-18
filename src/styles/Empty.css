@@ -1,0 +1,28 @@
+.order-success {
+    margin-right: 300px;
+    text-align: center;
+}
+
+.order-details {
+    padding: 20px;
+}
+
+.order-success img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.order-details p {
+    margin: 10px;
+}
+
+@media (max-width: 400px) {
+    .order-success {
+        margin-top: 120px;
+        min-width: 420px;
+    }
+    .success-image {
+        width: 200px;
+    }
+}
